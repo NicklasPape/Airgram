@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A25720812D6F4D6C008E311D /* airgramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25720802D6F4D6C008E311D /* airgramApp.swift */; };
+		A25720832D6F4D6C008E311D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25720822D6F4D6C008E311D /* ContentView.swift */; };
+		A25720852D6F4D6C008E311D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25720842D6F4D6C008E311D /* Item.swift */; };
+		A25720872D6F4D6C008E311D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A25720862D6F4D6C008E311D /* Assets.xcassets */; };
+		A257208A2D6F4D6C008E311D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A25720892D6F4D6C008E311D /* Preview Assets.xcassets */; };
+		A25720942D6F4D6D008E311D /* airgramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25720932D6F4D6D008E311D /* airgramTests.swift */; };
+		A257209E2D6F4D6D008E311D /* airgramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A257209D2D6F4D6D008E311D /* airgramUITests.swift */; };
+		A25720A02D6F4D6D008E311D /* airgramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A257209F2D6F4D6D008E311D /* airgramUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A25720902D6F4D6D008E311D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A25720752D6F4D6C008E311D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A257207C2D6F4D6C008E311D;
+			remoteInfo = airgram;
+		};
+		A257209A2D6F4D6D008E311D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A25720752D6F4D6C008E311D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A257207C2D6F4D6C008E311D;
+			remoteInfo = airgram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A257207D2D6F4D6C008E311D /* airgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = airgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A25720802D6F4D6C008E311D /* airgramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airgramApp.swift; sourceTree = "<group>"; };
+		A25720822D6F4D6C008E311D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A25720842D6F4D6C008E311D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		A25720862D6F4D6C008E311D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A25720892D6F4D6C008E311D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A257208F2D6F4D6D008E311D /* airgramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = airgramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A25720932D6F4D6D008E311D /* airgramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airgramTests.swift; sourceTree = "<group>"; };
+		A25720992D6F4D6D008E311D /* airgramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = airgramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A257209D2D6F4D6D008E311D /* airgramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airgramUITests.swift; sourceTree = "<group>"; };
+		A257209F2D6F4D6D008E311D /* airgramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airgramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A257207A2D6F4D6C008E311D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A257208C2D6F4D6D008E311D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A25720962D6F4D6D008E311D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A25720742D6F4D6C008E311D = {
+			isa = PBXGroup;
+			children = (
+				A257207F2D6F4D6C008E311D /* airgram */,
+				A25720922D6F4D6D008E311D /* airgramTests */,
+				A257209C2D6F4D6D008E311D /* airgramUITests */,
+				A257207E2D6F4D6C008E311D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A257207E2D6F4D6C008E311D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A257207D2D6F4D6C008E311D /* airgram.app */,
+				A257208F2D6F4D6D008E311D /* airgramTests.xctest */,
+				A25720992D6F4D6D008E311D /* airgramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A257207F2D6F4D6C008E311D /* airgram */ = {
+			isa = PBXGroup;
+			children = (
+				A25720802D6F4D6C008E311D /* airgramApp.swift */,
+				A25720822D6F4D6C008E311D /* ContentView.swift */,
+				A25720842D6F4D6C008E311D /* Item.swift */,
+				A25720862D6F4D6C008E311D /* Assets.xcassets */,
+				A25720882D6F4D6C008E311D /* Preview Content */,
+			);
+			path = airgram;
+			sourceTree = "<group>";
+		};
+		A25720882D6F4D6C008E311D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A25720892D6F4D6C008E311D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A25720922D6F4D6D008E311D /* airgramTests */ = {
+			isa = PBXGroup;
+			children = (
+				A25720932D6F4D6D008E311D /* airgramTests.swift */,
+			);
+			path = airgramTests;
+			sourceTree = "<group>";
+		};
+		A257209C2D6F4D6D008E311D /* airgramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A257209D2D6F4D6D008E311D /* airgramUITests.swift */,
+				A257209F2D6F4D6D008E311D /* airgramUITestsLaunchTests.swift */,
+			);
+			path = airgramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A257207C2D6F4D6C008E311D /* airgram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A25720A32D6F4D6D008E311D /* Build configuration list for PBXNativeTarget "airgram" */;
+			buildPhases = (
+				A25720792D6F4D6C008E311D /* Sources */,
+				A257207A2D6F4D6C008E311D /* Frameworks */,
+				A257207B2D6F4D6C008E311D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = airgram;
+			productName = airgram;
+			productReference = A257207D2D6F4D6C008E311D /* airgram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A257208E2D6F4D6D008E311D /* airgramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A25720A62D6F4D6D008E311D /* Build configuration list for PBXNativeTarget "airgramTests" */;
+			buildPhases = (
+				A257208B2D6F4D6D008E311D /* Sources */,
+				A257208C2D6F4D6D008E311D /* Frameworks */,
+				A257208D2D6F4D6D008E311D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A25720912D6F4D6D008E311D /* PBXTargetDependency */,
+			);
+			name = airgramTests;
+			productName = airgramTests;
+			productReference = A257208F2D6F4D6D008E311D /* airgramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A25720982D6F4D6D008E311D /* airgramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A25720A92D6F4D6D008E311D /* Build configuration list for PBXNativeTarget "airgramUITests" */;
+			buildPhases = (
+				A25720952D6F4D6D008E311D /* Sources */,
+				A25720962D6F4D6D008E311D /* Frameworks */,
+				A25720972D6F4D6D008E311D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A257209B2D6F4D6D008E311D /* PBXTargetDependency */,
+			);
+			name = airgramUITests;
+			productName = airgramUITests;
+			productReference = A25720992D6F4D6D008E311D /* airgramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A25720752D6F4D6C008E311D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A257207C2D6F4D6C008E311D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					A257208E2D6F4D6D008E311D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A257207C2D6F4D6C008E311D;
+					};
+					A25720982D6F4D6D008E311D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A257207C2D6F4D6C008E311D;
+					};
+				};
+			};
+			buildConfigurationList = A25720782D6F4D6C008E311D /* Build configuration list for PBXProject "airgram" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A25720742D6F4D6C008E311D;
+			productRefGroup = A257207E2D6F4D6C008E311D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A257207C2D6F4D6C008E311D /* airgram */,
+				A257208E2D6F4D6D008E311D /* airgramTests */,
+				A25720982D6F4D6D008E311D /* airgramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A257207B2D6F4D6C008E311D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A257208A2D6F4D6C008E311D /* Preview Assets.xcassets in Resources */,
+				A25720872D6F4D6C008E311D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A257208D2D6F4D6D008E311D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A25720972D6F4D6D008E311D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A25720792D6F4D6C008E311D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25720832D6F4D6C008E311D /* ContentView.swift in Sources */,
+				A25720852D6F4D6C008E311D /* Item.swift in Sources */,
+				A25720812D6F4D6C008E311D /* airgramApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A257208B2D6F4D6D008E311D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25720942D6F4D6D008E311D /* airgramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A25720952D6F4D6D008E311D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25720A02D6F4D6D008E311D /* airgramUITestsLaunchTests.swift in Sources */,
+				A257209E2D6F4D6D008E311D /* airgramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A25720912D6F4D6D008E311D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A257207C2D6F4D6C008E311D /* airgram */;
+			targetProxy = A25720902D6F4D6D008E311D /* PBXContainerItemProxy */;
+		};
+		A257209B2D6F4D6D008E311D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A257207C2D6F4D6C008E311D /* airgram */;
+			targetProxy = A257209A2D6F4D6D008E311D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A25720A12D6F4D6D008E311D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A25720A22D6F4D6D008E311D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A25720A42D6F4D6D008E311D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"airgram/Preview Content\"";
+				DEVELOPMENT_TEAM = H8UC47S7NP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nicklas.airgram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A25720A52D6F4D6D008E311D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"airgram/Preview Content\"";
+				DEVELOPMENT_TEAM = H8UC47S7NP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nicklas.airgram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A25720A72D6F4D6D008E311D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8UC47S7NP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nicklas.airgramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/airgram.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/airgram";
+			};
+			name = Debug;
+		};
+		A25720A82D6F4D6D008E311D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8UC47S7NP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nicklas.airgramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/airgram.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/airgram";
+			};
+			name = Release;
+		};
+		A25720AA2D6F4D6D008E311D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8UC47S7NP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nicklas.airgramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = airgram;
+			};
+			name = Debug;
+		};
+		A25720AB2D6F4D6D008E311D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8UC47S7NP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nicklas.airgramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = airgram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A25720782D6F4D6C008E311D /* Build configuration list for PBXProject "airgram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A25720A12D6F4D6D008E311D /* Debug */,
+				A25720A22D6F4D6D008E311D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A25720A32D6F4D6D008E311D /* Build configuration list for PBXNativeTarget "airgram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A25720A42D6F4D6D008E311D /* Debug */,
+				A25720A52D6F4D6D008E311D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A25720A62D6F4D6D008E311D /* Build configuration list for PBXNativeTarget "airgramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A25720A72D6F4D6D008E311D /* Debug */,
+				A25720A82D6F4D6D008E311D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A25720A92D6F4D6D008E311D /* Build configuration list for PBXNativeTarget "airgramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A25720AA2D6F4D6D008E311D /* Debug */,
+				A25720AB2D6F4D6D008E311D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A25720752D6F4D6C008E311D /* Project object */;
+}
