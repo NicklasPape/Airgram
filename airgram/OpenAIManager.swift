@@ -42,14 +42,14 @@ class OpenAIManager {
             "messages": [
                 [
                     "role": "system",
-                    "content": "You are a helpful AI that can analyze aircraft images."
+                    "content": "You are a helpful AI that can analyze aircraft images only."
                 ],
                 [
                     "role": "user",
                     "content": [
                         [
                             "type": "text",
-                            "text": "Analyze this aircraft image and provide these details ONLY in this format - Aircraft Model: [model], Operator: [operator], Registration: [registration], Livery: [livery description or 'Standard']. ONLY include fields where you can clearly see and identify the information. Do not include fields where you're unsure or cannot see the information."
+                            "text": "Analyze this aircraft image and provide these details ONLY in this format - Aircraft Model: [model], Operator: [operator], Registration: [registration], Livery: [livery description]. ONLY include fields where you can clearly see and identify the information. Do not include fields where you're unsure or cannot see the information."
                         ],
                         [
                             "type": "image_url",

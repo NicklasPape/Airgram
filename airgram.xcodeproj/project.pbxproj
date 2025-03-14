@@ -22,6 +22,7 @@
 		A25720B62D6F4F24008E311D /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = A25720B52D6F4F24008E311D /* Realtime */; };
 		A25720B82D6F4F24008E311D /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = A25720B72D6F4F24008E311D /* Storage */; };
 		A25720BB2D6F4FCF008E311D /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = A25720BA2D6F4FCF008E311D /* Supabase */; };
+		A2AF5B242D843EEF00CD38D3 /* Aircraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AF5B232D843EEF00CD38D3 /* Aircraft.swift */; };
 		A2B7C5D12D836B07009450BA /* OpenAIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7C5D02D836B07009450BA /* OpenAIManager.swift */; };
 		A2B7C5D52D8381CA009450BA /* ListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7C5D42D8381CA009450BA /* ListingView.swift */; };
 /* End PBXBuildFile section */
@@ -56,6 +57,7 @@
 		A257209D2D6F4D6D008E311D /* airgramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airgramUITests.swift; sourceTree = "<group>"; };
 		A257209F2D6F4D6D008E311D /* airgramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airgramUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A25720AC2D6F4EA0008E311D /* SupabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseManager.swift; sourceTree = "<group>"; };
+		A2AF5B232D843EEF00CD38D3 /* Aircraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aircraft.swift; sourceTree = "<group>"; };
 		A2B7C5D02D836B07009450BA /* OpenAIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIManager.swift; sourceTree = "<group>"; };
 		A2B7C5D42D8381CA009450BA /* ListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,6 +125,7 @@
 				A25720842D6F4D6C008E311D /* Item.swift */,
 				A25720862D6F4D6C008E311D /* Assets.xcassets */,
 				A25720882D6F4D6C008E311D /* Preview Content */,
+				A2AF5B232D843EEF00CD38D3 /* Aircraft.swift */,
 			);
 			path = airgram;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2AF5B242D843EEF00CD38D3 /* Aircraft.swift in Sources */,
 				A25720832D6F4D6C008E311D /* ContentView.swift in Sources */,
 				A2B7C5D12D836B07009450BA /* OpenAIManager.swift in Sources */,
 				A25720852D6F4D6C008E311D /* Item.swift in Sources */,

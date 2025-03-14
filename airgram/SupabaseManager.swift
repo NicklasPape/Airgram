@@ -188,5 +188,28 @@ class SupabaseManager {
         return result.first?.value
     }
     
-    // The rest of the file remains the same
+    func fetchAircraftByModel(model: String) async throws -> Aircraft? {
+        print("🔍 Fetching aircraft with model: \(model)")
+        
+        // Split the input into manufacturer and model if possible
+        let components = model.split(separator: " ", maxSplits: 1).map(String.init)
+        let manufacturer = components.first ?? ""
+        let modelNumber = components.count > 1 ? components[1] : model
+        
+        let response: [Aircraft] = try await client.database
+            .from("aircrafts")
+            .select()
+            .or("model.ilike.%\(modelNumber)%,manufacturer.ilike.%\(manufacturer)%")
+            .execute()
+            .value
+        
+        print("📊 Response received: \(response.count) matches")
+        if response.isEmpty {
+            print("⚠️ No aircraft found for model: \(model)")
+        } else {
+            print("✅ Found aircraft: \(response.first?.manufacturer ?? "") \(response.first?.model ?? "")")
+        }
+        
+        return response.first
+    }
 }
