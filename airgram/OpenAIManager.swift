@@ -14,10 +14,19 @@ import CoreLocation
 class OpenAIManager {
     static let shared = OpenAIManager()
     private let apiURL = URL(string: "https://api.openai.com/v1/chat/completions")!
-    private let apiKey = "" // Replace with your actual OpenAI key
     
+    // Securely load API key from environment variable
+    private let apiKey: String = {
+        if let key = ProcessInfo.processInfo.environment["OPENAI_API_KEY"] {
+            return key
+        } else {
+            print("⚠️ Warning: OPENAI_API_KEY not found in environment variables!")
+            return "MISSING_API_KEY" // Avoid crashing if the key is missing
+        }
+    }()
+
     private init() {}
-    
+
     struct AircraftAnalysis {
         let aircraftModel: String?
         let operator_: String?
